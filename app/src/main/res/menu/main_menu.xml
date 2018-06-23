@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Reset" android:id="@+id/resetItem"/>
+
+    <group
+        android:id="@+id/group"
+        android:checkableBehavior="single"
+        android:menuCategory="container">
+        <item
+            android:id="@+id/size3"
+            android:title="3x3" />
+        <item
+            android:id="@+id/size4"
+            android:title="4x4" />
+        <item
+            android:id="@+id/size5"
+            android:title="5x5" />
+    </group>
+
+</menu>
